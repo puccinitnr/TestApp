@@ -23,7 +23,7 @@ describe PagesController do
     
     it "should have the right title" do
       get 'contact'
-      response.should have_tag("title","Ruby on Rails Tutorial App | contact")
+      response.should have_tag("title","Ruby on Rails Tutorial App | Contact")
     end
   end
   
