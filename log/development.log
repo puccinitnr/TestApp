@@ -83,3 +83,181 @@ Processing PagesController#contact (for 127.0.0.1 at 2010-06-04 16:42:43) [GET]
 Rendering template within layouts/application
 Rendering pages/contact
 Completed in 34ms (View: 26, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-06-04 20:21:08) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: about, contact, help, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-04 20:21:11) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+
+ActionView::TemplateError (undefined method `image_tab' for #<ActionView::Base:0x18ac93c>) on line #13 of app/views/layouts/application.html.erb:
+10:   <body>
+11:     <div class="container">
+12:       <div id="header">
+13:         <%= image_tab("logo.png", :alt => "Sample App", :class => "round") %>
+14:         <ul class="navigation round">
+15:           <li><%= link_to "Home",'#' %></li>
+16:           <li><%= link_to "Help",'#' %></li>
+
+    app/views/layouts/application.html.erb:13
+
+Rendered rescues/_trace (99.8ms)
+Rendered rescues/_request_and_response (4.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-04 20:21:46) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 299ms (View: 292, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 20:21:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-04 20:35:42) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 20:35:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:35:49) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 34ms (View: 27, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 20:35:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:37:21) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:42:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:42:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:42:58) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:44:46) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:45:14) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:45:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 22ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:45:57) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:46:06) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:48:15) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 43ms (View: 36, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:49:56) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:50:03) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:50:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:52:16) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:52:20) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:52:29) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:52:39) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 20:56:55) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/pages/home]
