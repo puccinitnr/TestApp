@@ -36,3 +36,50 @@
 [0m
   [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
   [4;36;1mSQL (6.4ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-06-04 16:16:29) [GET]
+  [4;36;1mSQL (1.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 103ms (View: 5, DB: 2) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-06-04 16:16:35) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: about, contact, help, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 16:16:41) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 89ms (View: 83, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-04 16:17:03) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 59ms (View: 52, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-04 16:18:46) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 33ms (View: 26, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-06-04 16:42:36) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Completed in 36ms (View: 28, DB: 0) | 200 OK [http://localhost/pages/help]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-04 16:42:43) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 34ms (View: 26, DB: 0) | 200 OK [http://localhost/pages/contact]
